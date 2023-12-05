@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Step "/>
+
+    <TextView
+        android:inputType="number"
+        android:id="@+id/Step_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="-19dp"
+        android:text="0 "/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/desc_steps"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/btn2"
+            android:hint="Enter Description"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:gravity="top"
+            android:textColor="@color/black"
+            />
+
+
+        <ImageView
+            android:id="@+id/image_remove_desc"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_close_24"
+            app:tint="@color/black"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
