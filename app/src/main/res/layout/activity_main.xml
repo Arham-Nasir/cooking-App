@@ -32,7 +32,7 @@
             android:layout_height="match_parent"
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
-            app:itemIconTint="#FFEB3B"
+            app:itemIconTint="#1C98A8"
             app:itemRippleColor="@color/white"
             app:itemTextColor="#FFFFFF"
             app:menu="@menu/bottomnavmenu" />
@@ -44,7 +44,7 @@
         android:id="@+id/upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFEB3B"
+        android:backgroundTint="#1C98A8"
         android:hapticFeedbackEnabled="true"
         android:src="@drawable/ic_baseline_file_upload_24"
         app:layout_anchor="@id/bottom"/>
