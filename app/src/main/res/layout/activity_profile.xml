@@ -31,7 +31,7 @@
             android:gravity="center"
             android:paddingRight="30dp"
             android:text="Profile"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="30dp" />
 
     </LinearLayout>
