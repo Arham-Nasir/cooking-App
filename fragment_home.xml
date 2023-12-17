@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer"
-    android:background="#E5FFC0"
+    android:background="@color/white"
     tools:context=".MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                     android:id="@+id/username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Momin"
+                    android:text="Amjad"
                     android:textColor="@color/black"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -120,7 +120,7 @@
                 android:layout_marginLeft="102dp"
                 android:layout_marginTop="-34dp"
                 android:text="Home"
-                android:textColor="#16890c"
+                android:textColor="#FFEB3B"
                 android:textSize="25dp"
                 android:layout_marginBottom="10dp"
                 android:textStyle="bold" />
