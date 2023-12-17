@@ -39,8 +39,8 @@
             android:layout_marginLeft="15dp"
             android:textColor="@color/white"
             android:textAllCaps="false"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
             android:drawableRight="@drawable/ic_baseline_add_24"/>
 
 
