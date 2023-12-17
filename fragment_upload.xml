@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#E5FFC0"
+    android:background="@color/white"
     tools:context=".Upload">
 
     <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:elevation="10dp"
-            android:backgroundTint="#E5FFC0"
+            android:backgroundTint="@color/white"
             app:cardCornerRadius="15dp">
 
             <ImageView
@@ -55,8 +55,8 @@
             android:hint="Give Your Recipe A Name"
             android:inputType="textPersonName"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
             android:textSize="20dp" />
 
         <EditText
@@ -71,8 +71,8 @@
             android:hint="Your Recipe Time"
             android:inputType="number"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
             android:textSize="20dp" />
 
 
@@ -88,8 +88,8 @@
             android:hint="Your Recipe Serving"
             android:inputType="number"
             android:padding="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
             android:textSize="20dp" />
 
         <LinearLayout

@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer_upl"
-    android:background="#E5FFC0"
+    android:id="@+id/drawer_down"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -25,7 +25,7 @@
 
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profilepic_upl"
+                android:id="@+id/profilepic_down"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:layout_gravity="right"
@@ -33,49 +33,52 @@
                 android:src="@drawable/ic_baseline_person_24" />
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:orientation="vertical">
 
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/uplRV"
+                    android:id="@+id/downRv"
                     android:layout_width="match_parent"
-                    android:layout_marginBottom="60dp"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="60dp" />
 
 
             </LinearLayout>
 
+
+
+
             <TextView
-                android:id="@+id/emptytextupload"
+                android:id="@+id/emptytext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-25dp"
-                android:text="Oops you upload nothing"
+                android:text="Oops you download nothing"
                 android:textColor="@color/black"
                 android:layout_gravity="center"
+                android:visibility="invisible"
                 android:textSize="15dp"
                 android:textStyle="bold" />
 
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/emptyanimupload"
+                android:id="@+id/emptyanim"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 app:lottie_autoPlay="true"
+                android:visibility="invisible"
                 app:lottie_loop="true"
                 app:lottie_rawRes="@raw/empty" />
+
 
 
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/menu_icon_upl"
+            android:id="@+id/menu_icon_down"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
@@ -87,20 +90,23 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="25dp"
-            android:text="Your Uploads"
+            android:text="Download"
             android:textColor="@color/black"
             android:textSize="25dp"
             android:textStyle="bold" />
 
+
+
+
     </RelativeLayout>
     <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_upl"
+        android:id="@+id/nav_down"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:background="@drawable/menugradient"
         app:headerLayout="@layout/nav_header"
+        android:background="@drawable/menugradient"
         app:menu="@menu/nav_menu">
 
 
